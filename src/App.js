@@ -33,6 +33,8 @@ function App() {
   return (
     <div className="App">
       <TodoList todos={todos} toggleTodo={toggleTodo} />
+      <div>Todoリスト作ってみた</div>
+
       <input type="text" ref={todoNameRef} />
       <button onClick={handleAddTodo}>タスクを追加</button>
       <button onClick={handleClear}>完了したタスクの削除</button>
